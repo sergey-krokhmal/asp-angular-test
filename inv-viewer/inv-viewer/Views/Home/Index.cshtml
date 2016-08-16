@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>Модуль: {{ moduleName }}</p>
+<p>Сообщение: {{ message }}</p>
+<script type="text/javascript">
+    angular.module('myApp', [])
+        .run(function ($rootScope) {
+            $rootScope.moduleName = "myApp";
+            $rootScope.message = "Hello AngularJS";
+        });
+</script>
