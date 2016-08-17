@@ -1,6 +1,13 @@
-﻿@{
+﻿@model IEnumerable<InvViewer.Models.Building>
+@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (InvViewer.Models.Building b in Model){
+    <div>
+        @b.Name
+    </div>
 }
 
 <p>Модуль: {{ moduleName }}</p>

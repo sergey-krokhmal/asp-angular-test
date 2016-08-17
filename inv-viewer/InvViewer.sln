@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inv-viewer", "inv-viewer\inv-viewer.csproj", "{B4366C9E-CB6B-42DF-8542-E4254683D2B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvViewer", "inv-viewer\InvViewer.csproj", "{B4366C9E-CB6B-42DF-8542-E4254683D2B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

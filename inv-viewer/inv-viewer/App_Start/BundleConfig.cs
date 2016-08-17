@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace inv_viewer
+namespace InvViewer
 {
     public class BundleConfig
     {

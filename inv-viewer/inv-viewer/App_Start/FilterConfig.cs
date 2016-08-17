@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace inv_viewer
+namespace InvViewer
 {
     public class FilterConfig
     {

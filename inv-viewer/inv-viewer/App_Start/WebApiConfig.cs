@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace inv_viewer
+namespace InvViewer
 {
     public static class WebApiConfig
     {
